@@ -1,0 +1,275 @@
+div#tp {
+    width: 100%;
+    color: white;
+    height: 550px;
+    text-align: center;
+    background: rgb(146, 7, 14) url(../img/pattern.png) repeat center center !important;
+}
+
+body, html {
+    margin: 0px;
+    font-family: 'Englebert', sans-serif;
+    min-height: 100%;
+}
+
+div#bigtxt {
+    font-size: 630%;
+    padding-top: 6%;
+    color: white;
+}
+
+span#excl {
+    color: #de891f;
+    border-bottom: 5px solid #70050a;
+}
+
+div#smtxt {
+    font-size: 150%;
+    margin-top: 4%;
+}
+
+div#rst-fst {
+    /* height: 100%; */
+    z-index: 1;
+    color: black;
+    font-family:  'Hind', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.btn-round {
+  background-color: #ffffff;
+  /* z-index: 0; */
+  border-radius: 3px;
+  width: 70px;
+  height: 40px;
+  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.26); */
+  line-height: 1;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+  bottom: 30px;
+  transition: all 0.5s;
+}
+
+.btn-round span {
+    position: absolute;
+    left: 0px;
+    top: 9%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #212121;
+}
+
+li {
+    margin: 0px auto;
+    width: 14%;
+    list-style: none;
+    /* position: relative; */
+    /* top: -45%; */
+    text-align: center;
+}
+
+img {
+    width: 40px;
+}
+
+div#tpbar {position: fixed;right: 0px;z-index: 5;}
+
+div#sdbar {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 555;
+    background-color: rgba(0, 0, 0, 0.62);
+    display: none;
+}
+
+div#mnu {
+    width: 35%;
+    height: 100%;
+    z-index: 10;
+    display: inline-block;
+    position: fixed;
+    right: 0px;
+    background-color: #f6f6f6;
+    transition: all 1s;
+}
+
+.m-icon {
+    color: rgba(0, 0, 0, 0.48);
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+div#rst-cls {
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+}
+
+@media only screen and (min-width: 768px) {
+    div#mnu {
+        width: 40%!important;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    div#mnu {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    div#mnu {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    div#mnu {
+        width: 30%!important;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #6d6d6d;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #d5d5d5;
+}
+
+div#cont {
+    text-align: center;
+    font-size: 30px;
+    background-color: inherit;
+}
+
+.grn {
+    color: #2E7D32;
+}
+
+a {
+    color: white;
+}
+
+div#prtf {/* min-height: 330px; */width: 100%;background-color: #ffffff;left: 0px;z-index: 5;padding-top: 70px;margin-top: 90px;text-align: center;}
+
+div#rst {
+    background-color: #ee921f;
+    /* height: 100%; */
+}
+
+html {
+}
+
+.prtf-i {
+    width: 300px;
+    height: 300px;
+    /* background-color: #d5d5d5; */
+    display: inline-block;
+    margin: 25px;
+    border-radius: 2px;
+    /* margin-bottom: 50px; */
+}
+
+div#reset {
+    /* transform: rotateZ(6deg); */
+    padding: 7%;
+    margin: 0px auto;
+    width: 80%;
+    padding-right: 3%;
+}
+.skew:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  overflow: visible;
+  width: 100%;
+  height: 100px;
+  z-index: 0;
+  margin-top: 20px;
+  background: #ffffff;
+  margin-bottom: 25px;
+  -webkit-transform: skewY(-3deg);
+  -moz-transform: skewY(-3deg);
+  -ms-transform: skewY(-3deg);
+  -o-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+}
+.btn-round:hover {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.26);
+}
+
+
+.txt-cs {
+    width: 86%;
+    height: 55px;
+    background-color: transparent;
+    position: relative;
+    bottom: 63px;
+    text-align: left;
+    padding-left: 30px;
+    color: white;
+}
+
+.img-cs {
+    /* width: 100%; */
+    /* height: 240px; */
+}
+
+div#srlto {position: relative;top: 15px;width: 5px;height: 5px;}
+
+div#srlup {
+    position: fixed;
+    bottom: 0px;
+    z-index: 5555;
+    margin: 20px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.69);
+    color: rgba(255, 255, 255, 0.48);
+    padding: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: none;
+}
+
+div#srlup:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.78);
+}
+
+.img-cs>img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 360px) {
+    .prtf-i {
+        width: 80%;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+div#mnu-cnt {
+    margin: 10px;
+    height: 80%;
+    width: 93%;
+    border: 2px dashed #a5a5a5;
+    margin-top: 50px;
+}
+
+.skew {
+    z-index: 0;
+}
