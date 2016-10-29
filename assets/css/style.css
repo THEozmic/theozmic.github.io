@@ -43,7 +43,7 @@ div#rst-fst {
   border-radius: 3px;
   width: 70px;
   height: 40px;
-  /* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.26); */
+  box-shadow: 0 4px 0px 0 rgba(0, 0, 0, 0.26);
   line-height: 1;
   position: relative;
   cursor: pointer;
@@ -209,7 +209,7 @@ div#reset {
   backface-visibility: initial;
 }
 .btn-round:hover {
-    box-shadow: 0 4px 3px 0 rgba(0, 0, 0, 0.26);
+    box-shadow: 0 3px 0px 0 rgba(0, 0, 0, 0.26);
 }
 
 
@@ -272,4 +272,8 @@ div#mnu-cnt {
 
 .skew {
     z-index: 0;
+}
+
+.btn-round:focus {
+    box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.26);
 }
