@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Oz</title>
+	<title>Oz | Freelance Web Developer</title>
 	<link rel="stylesheet" href="assets/css/style.css"/>
 	<script src="assets/js/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
