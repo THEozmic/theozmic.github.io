@@ -17,11 +17,9 @@
 	<div id="mnu">
 		<div class="m-icon"><span class="fa fa-times"></span></div>
 		<div id="mnu-cnt">
-			<ul>
-				<li>~ <a href="portfolio/">More Portfolio</a></li>
-				<li>~ <a href="hire-oz/">Hire me</a></li>
-				<li>~ <a href="blog/">Blog</a></li>
-			</ul>
+			<a href="hire-oz/">Hire me</a>
+			<a href="portfolio/">More Portfolio</a>
+			<a href="story-me/">My Story</a>
 		</div>
 	</div>
 </div>
