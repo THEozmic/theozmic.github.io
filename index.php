@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Oz | Freelance Web Developer</title>
-	<link rel="stylesheet" href="assets/css/style.css"/>
-	<script src="assets/js/jquery.min.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="utf-8">
-	<link href="assets/font/englebert.css" rel="stylesheet">
-	<link href="assets/font/hind.css" rel="stylesheet">
-	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	<?php include "head.inc";?>
 
 </head>
 <body>
-<div id="sdbar">
-	<div id="rst-cls"></div>
-	<div id="mnu">
-		<div class="m-icon"><span class="fa fa-times"></span></div>
-		<div id="mnu-cnt">
-			<a href="hire-oz/">Hire me</a>
-			<a href="portfolio/">More Portfolio</a>
-			<a href="story-me/">My Story</a>
-		</div>
-	</div>
-</div>
+<?php include "sidebar.inc";?>
 	<div id="tp">
-		<div id="tpbar"><div class="m-icon"><span class="fa fa-bars"></span></div></div>
+		<?php include "tp.inc";?>
 
 		<div id="bigtxt">
 		 Hi! I'm <span id="excl">Oz</span>
