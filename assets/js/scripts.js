@@ -15,3 +15,7 @@ $(window).scroll(function(){
 			$('#srlup').fadeOut();
 		}
 	});
+
+$("#hr-me").click(function() {
+   location.href = "hire-oz/";
+});

@@ -120,7 +120,7 @@ div#rst-cls {
 
 @media only screen and (min-width: 320px) {
     div#mnu {
-        width: 70%;
+        width: 60%;
     }
 }
 
@@ -214,14 +214,17 @@ div#reset {
 
 
 .txt-cs {
-    width: 86%;
-    height: 55px;
-    background-color: transparent;
+    width: 60%;
+    height: 43px;
+    background-color: rgba(0, 0, 0, 0.37);
     position: relative;
     bottom: 63px;
     text-align: left;
+    border-radius: 2px;
     padding-left: 30px;
     color: white;
+    /* display: none; */
+    padding-top: 15px;
 }
 
 .img-cs {
@@ -252,6 +255,11 @@ div#srlup:hover {
 
 .img-cs>img {
     width: 100%;
+    transition: all 1s;
+}
+
+.img-cs>img:hover {
+    transform: scale(1.1,1.1);
 }
 
 @media only screen and (max-width: 360px) {
@@ -276,4 +284,44 @@ div#mnu-cnt {
 
 .btn-round:focus {
     box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.26);
+}
+
+div#mnu-cnt>ul>li {padding: 10px;width: 95%;text-decoration: none;/* border-bottom: 2px dashed #a5a5a5; */padding-bottom: 20px;padding-top: 20px;text-align: start;}
+
+div#mnu-cnt>ul {
+    padding-left: 25px;
+    margin-top: 0px;
+}
+
+div#mnu-cnt>ul>li:hover {
+    color: #ee921f;
+    /* border-bottom-color: transparent; */
+}
+
+div#hr-me {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #ee921f;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #a56617;
+    cursor: pointer;
+    /* transition: all 1s; */
+}
+
+div#hr-me:active {
+    border-bottom: 4.5px solid #a56617;
+    margin-top: 22px;
+}
+
+div#mnu-cnt>ul>li>a {
+    text-decoration: none;
+    color: grey;
+}
+
+div#mnu-cnt>ul>li>a:hover {
+    color: #ee921f;
 }

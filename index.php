@@ -16,7 +16,13 @@
 	<div id="rst-cls"></div>
 	<div id="mnu">
 		<div class="m-icon"><span class="fa fa-times"></span></div>
-		<div id="mnu-cnt"></div>
+		<div id="mnu-cnt">
+			<ul>
+				<li>~ <a href="portfolio/">More Portfolio</a></li>
+				<li>~ <a href="hire-oz/">Hire me</a></li>
+				<li>~ <a href="blog/">Blog</a></li>
+			</ul>
+		</div>
 	</div>
 </div>
 	<div id="tp">
@@ -26,6 +32,7 @@
 		 Hi! I'm <span id="excl">Oz</span>
 		</div>
 		<div id="smtxt">Web Developer from Enugu, Nigeria.</div>
+		<div id="hr-me">Hire Oz</div>
 	</div>
 	<div id="rst">
 			<div id="rst-fst">
