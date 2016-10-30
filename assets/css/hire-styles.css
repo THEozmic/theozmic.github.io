@@ -15,8 +15,13 @@ body {
 
 .headbar-title {
     margin-left: 30px;
+    text-decoration: none;
 }
 
 div#tp {
     height: 0px;
+}
+
+a {
+    text-decoration: inherit;
 }

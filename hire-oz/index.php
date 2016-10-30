@@ -9,7 +9,7 @@
 	<div id="tp">
 		<?php include "../tp.inc";?>
 	</div>
-	<div class="headbar-title">Oz.me</div>
+	<div class="headbar-title"><a href="http://localhost/projects/oz.me">Oz.me</a></div>
 </div>
 
 <div id="srlup"><span class="fa fa-arrow-up"></span></div>
