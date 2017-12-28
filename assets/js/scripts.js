@@ -1,29 +1,32 @@
-$(".m-icon, #rst-cls").click(function(){
-	$("#sdbar").fadeToggle();
-});
-$("#srlfrm").click(function() {
-    $("html, body").animate({ scrollTop: $("#srlto").offset().top }, 1000);
-});
-$("#srlup").click(function() {
-    $("html, body").animate({ scrollTop: $("#tp").offset().top }, 1000);
-});
+// let index = parseInt(location.hash.split("")[1]) || 0
+// let lastIndex = 0
 
-$(window).scroll(function(){
-		if ($(this).scrollTop() > 200) {
-			$('#srlup').fadeIn();
-		} else {
-			$('#srlup').fadeOut();
-		}
-	});
 
-$("#hr-me").click(function() {
-   location.href = "hire-oz/";
-});
-
-jQuery(document).ready(function(){
-	jQuery('.skillbar').each(function(){
-		jQuery(this).find('.skillbar-bar').animate({
-			width:jQuery(this).attr('data-percent')
-		},6000);
-	});
-});
+// $(window).bind('mousewheel', function(event) {
+//   event.preventDefault();
+//   if (event.originalEvent.wheelDelta >= 0) {
+//     console.log('up', index)
+//     if (index !== 0) {
+//       $('.pagelets').animate({
+//         scrollTop: $(`#${index-1}`).offset().top
+//       }, 1000);
+//       index = index - 1
+//       location.hash = index
+//       return;
+//     }
+//   } else {
+//     console.log('down', index)
+//     if ($(`#${index+1}`).length != 0) {
+//       if ((index + 1) - lastIndex === 1) {
+//         $('.pagelets').animate({
+//           scrollTop: $(`#${index+1}`).offset().top
+//         }, 1000);
+//         index = index + 1
+        
+//         lastIndex = index - 1
+//       }
+//       location.hash = index
+//       return;
+//     }
+//   }
+// });

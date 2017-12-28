@@ -1,1 +1,0 @@
-<div id="tpbar"><div class="m-icon"><span class="fa fa-bars"></span></div></div>

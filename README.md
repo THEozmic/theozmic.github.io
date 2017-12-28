@@ -1,2 +1,1 @@
-# oz.me
 Portfolio Website
