@@ -1,5 +1,4 @@
 body, html {
-    height: 100%;
     margin: 20px;
     font-family: 'Quicksand', sans-serif;
 }
@@ -7,7 +6,7 @@ body, html {
 .page {
     display: inline-block;
     width:  100%;
-    background-color: #47b6e852;
+    background-color: #00bcd43b;
     font-size:  30px;
     color: #332f2fc9;
     padding:  30px;
@@ -18,7 +17,7 @@ body, html {
 
 .header-link, a {
     text-decoration:  none;
-    color: inherit;
+    color: #FF9800;
     position:  relative;
     border-bottom: none;
 }
@@ -50,11 +49,12 @@ a {
 .heading {
     border-top: 2px solid #0404041f;
     padding-top: 30px;
+    font-size: 30px;
 }
 
-.project {
+/* .project {
     display:  inline-block;
-    background-color: #000000a6;
+    background-color: #ff9800;
     height: 200px;
     margin: 20px;
     width:  300px;
@@ -63,6 +63,7 @@ a {
     box-sizing:  border-box;
     border-radius:  3px;
     color:  #fff;
+    cursor:  pointer;
 }
 
 .projects {
@@ -70,4 +71,48 @@ a {
     align-items:  center;
     justify-content:  center;
     width:  100%;
+}
+
+.project-name {
+    font-size:  30px;
+    display: block;
+    text-align:  center;
+    transition: all .2s ease-in-out;
+}
+
+.project-tech {
+    font-size:  15px;
+    text-align:  center;
+    display:  block;
+    transition: all .2s ease-in-out;
+}
+
+.project:hover .project-tech {
+    font-size: 16px;
+}
+
+.project:hover .project-name {
+    font-size: 35px;
+} */
+
+.project {
+    display:  inline-block;
+    width: 47.9%;
+    margin: 20px 20px 20px 0px;
+    vertical-align: top;
+    text-align:  left;
+    /* float: right; */
+}
+
+.project-name {
+    font-size:  25px;
+    display: block;
+    color: #FF9800;
+    border-bottom:  none;
+}
+
+.projects {
+    /* justify-content:  center; */
+    /* display:  inline-flex; */
+    /* text-align:  center; */
 }
