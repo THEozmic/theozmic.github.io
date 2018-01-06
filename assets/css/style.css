@@ -76,13 +76,6 @@ a {
         margin: 20px;
     }
 }
-/* 
-@media only screen and (max-width: 768px) {
-    .project {
-        width: 50%;
-    }
-} */
-
 
 .project-desc {
     display:  inline-block;
