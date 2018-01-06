@@ -67,6 +67,10 @@ a {
     border-bottom:  none;
 }
 
+.project-desc {
+    display:  inline-block;
+}
+
 @media only screen and (min-width: 768px) {
     .project {
         width: 45%;
@@ -75,8 +79,4 @@ a {
     body {
         margin: 20px;
     }
-}
-
-.project-desc {
-    display:  inline-block;
 }
