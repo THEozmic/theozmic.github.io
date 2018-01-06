@@ -1,5 +1,5 @@
 body, html {
-    margin: 20px;
+    margin: 5px;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -27,7 +27,7 @@ body, html {
 }
 
 .header-link::after {
-    content: "-—";
+    content: "-–";
     font-size: 50px;
     position: absolute;
     left: 0;
@@ -52,67 +52,38 @@ a {
     font-size: 30px;
 }
 
-/* .project {
-    display:  inline-block;
-    background-color: #ff9800;
-    height: 200px;
-    margin: 20px;
-    width:  300px;
-    vertical-align: middle;
-    padding:  30px;
-    box-sizing:  border-box;
-    border-radius:  3px;
-    color:  #fff;
-    cursor:  pointer;
-}
-
-.projects {
-    display: inline-flex;
-    align-items:  center;
-    justify-content:  center;
-    width:  100%;
-}
-
-.project-name {
-    font-size:  30px;
-    display: block;
-    text-align:  center;
-    transition: all .2s ease-in-out;
-}
-
-.project-tech {
-    font-size:  15px;
-    text-align:  center;
-    display:  block;
-    transition: all .2s ease-in-out;
-}
-
-.project:hover .project-tech {
-    font-size: 16px;
-}
-
-.project:hover .project-name {
-    font-size: 35px;
-} */
-
 .project {
     display:  inline-block;
-    width: 47.9%;
+    width: 100%;
     margin: 20px 20px 20px 0px;
     vertical-align: top;
     text-align:  left;
-    /* float: right; */
 }
 
 .project-name {
     font-size:  25px;
-    display: block;
+    display: inline-block;
     color: #FF9800;
     border-bottom:  none;
 }
 
-.projects {
-    /* justify-content:  center; */
-    /* display:  inline-flex; */
-    /* text-align:  center; */
+@media only screen and (min-width: 768px) {
+    .project {
+        width: 45%;
+    }
+
+    body {
+        margin: 20px;
+    }
+}
+/* 
+@media only screen and (max-width: 768px) {
+    .project {
+        width: 50%;
+    }
+} */
+
+
+.project-desc {
+    display:  inline-block;
 }
