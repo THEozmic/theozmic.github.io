@@ -68,7 +68,7 @@ a {
 }
 
 .project-desc {
-    display:  inline-block;
+    display:  block;
 }
 
 @media only screen and (min-width: 768px) {
