@@ -1,223 +1,239 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>THEozmic</title>
+  <title>Michael Ozoemena</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <link rel="icon" href="/assets/images/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet" media="none" onload="if(media!='all')media='all'">
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:500"/>
-  </noscript>
-  <style>
-        .page,
-    .project {
-        width: 100%;
-        display: inline-block
-    }
-    
-    .page,
-    .project,
-    .project-name {
-        display: inline-block
-    }
-    
-    body,
-    html {
-        margin: 0px;
-        padding: 0px;
-        font-family: Quicksand, sans-serif
-    }
-    
-    .page {
-      background-color: #1d1e1f;
-      font-size: 20px;
-      color: #e6e6e6;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-    
-    .header-link,
-    a {
-        text-decoration: none;
-        color: #bbb;
-        position: relative;
-        border-bottom: none;
-        transition: .2s ease-out;
-    }
-    
-    header-link:hover,
-    a:hover {
-        color: #9e9e9e
-    }
-    
-    .header-link::after {
-        content: "-—";
-        font-size: 50px;
-        position: absolute;
-        left: 0;
-        top: 5px;
-        color: #ff5722
-    }
-    
-    .static-text {
-        font-size: 20px;
-        margin-top: 50px;
-        line-height: 2
-    }
-    
-    a {
-        border-bottom: 3px solid #FF5722;
-    }
-    
-    .header-link:hover {
-        border: none;
-    }
-    
-    .heading {
-      display: block;
-    padding-top: 60px;
-    font-size: 30px;
-    }
-    
-    .project {
-      margin: 50px 20px 5px 0;
-      vertical-align: top;
-      text-align: left;
-    }
-    
-    .project-name {
-      font-size: 25px;
-      color: #bbb;
-      height: 40px;
-      border-bottom: 3px solid transparent;
-    }
-
-    .project-name::before {
-      content: "";
-      width: 20px;
-      height: 20px;
-      background-image: url("link.svg");
-      display: inline-block;
-      margin-right: 10px;
-    }
-    
-    .project-desc {
-        display: block;
-        line-height: 1.4;
-    }
-    
-    .content {
-        z-index: 1;
-        position: relative
-    }
-
-    li {
-        display: inline-block;
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
-    ul {
-        list-style: none;
-        padding: 0px;
-    }
-    
-    @media only screen and (min-width:768px) {
-        .project {
-            width: 45%
-        }
-        .page {
-            padding: 30px;
-        }
-    }
-  </style>
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css?family=Esteban" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Hind+Guntur" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet" />
 </head>
+
 <body>
   <div class="page">
-    <div class="content">
-      <div>
-        <p style="font-size: 20px;">
-          Hi there! My name's Michael Ozoemena and I'm a Software Engineer living
-          and working in <a target="_blank" href="https://goo.gl/eUbi3G" rel="noopener">Lagos, Nigeria</a>.
-          Currently building amazing software at <a target="_blank" href="https://andela.com" rel="noopener">Andela</a>.
+    <div class="container container__flex">
+      <div class="about">
+        <p class="about-heading">
+          Hey, you can all me Michael.
+        </p>
+        <p class="about-content">
+          I'm passionate about building <strong>exciting web apps</strong>
+          with <strong>aesthetically pleasing</strong> and
+          <strong>functional</strong> user
+          interfaces that give an amazing user experience.
         </p>
       </div>
-      <div class="heading">Selected Projects</div>
-      <div class="projects">
-        <div class="project">
-          <a target="_blank" href="https://postit-michael.herokuapp.com" class="project-name" rel="noopener" title="Post It app on heroku">Post It</a>
-          <span class="project-desc">
-            A group messaging app. I built this with ReactJS running on an Express server with
-            a Postgres Database, from start to finish within a few months.
-          </span>
+      <div class="container-bg-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 267.83">
+          <path d="M0,260.08s59.38-67.65,123-29.62,129.25-22.89,165.6,13.47,119.48,27.82,168.3-2.7C500,214.31,509.47,235.58,591.55,252c43.08,8.63,59.23-1.88,92.93-.27,36.51,1.74,44.4-25.31,103.64-15.88,75.43,12,85.33-14.76,142.72-11.51,63.26,3.6,68.54-21.29,130.59-9.65,64.63,12.12,96.23-.65,132-11.16,45.78-13.46,94.51-19.88,142.72-25.58,67.31-7.95,92.9-49.81,140-39,48.89,11.17,55.2-41.74,193.88-16.15,79.5,14.67,178.66-47.59,223.5-32.32C1956.78,112,2000,0,2000,0H0Z"
+            style="fill:#000617" />
+        </svg>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-wrapper">
+        <h1 class="header">
+          <span>About Me</span>
+        </h1>
+      </div>
+      <div class="about-me">
+        <p>
+          I've been working as a Software Developer at Andela where I
+          primarily use <strong>Ruby on Rails</strong> in one of Asia's
+          leading payments gateway, Omise. Outside of Andela, I do a lot of
+          Front-end stuff using <strong>React</strong>
+          and <strong>Vue</strong> when I work on side-projects or do part-time
+          freelance work. I also play around with <strong>browser extensions</strong>
+          and contribute to <strong>open-source</strong> projects whenever I can.
+          Besides writing code, I enjoy writing technical and non-technical
+          articles on Medium.
+        </p>
+        <p> If you are interested in knowing more, you can find my interweb
+          links at <a href="#footer">the bottom of this page</a>.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-wrapper">
+        <h1 class="header">
+          <span>Selected Projects</span>
+        </h1>
+      </div>
+      <div class="works">
+        <div class="work">
+          <a href="https://github.com/THEozmic/supervisor-dashboard-vue" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-1.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                Vue.js DataTable
+              </div>
+              <div class="work-description">
+                A reusable data table component built with Vue.js. It includes column filtering, sorting,
+                searching and pagination features. Still a WIP.
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-          <a target="_blank" href="https://webtweeps-client.herokuapp.com/" class="project-name" rel="noopener" title="WebTweeps Client app on heroku">WebTweeps Client</a>
-          <span class="project-desc">
-            A Ruby on Rails app that reads data from a remote README.md file and creates a cool ReactJS UI from it.
-          </span>
+        <div class="work">
+          <a href="https://theozmic.github.io/ForThePeople/" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-2.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                ForThePeople Game
+              </div>
+              <div class="work-description">
+                A simple game I built with HTML, CSS and JS in a attempt to
+                raise political awareness in the upcoming Nigerian presidential
+                elections.
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-          <a target="_blank" href="https://theozmic.github.io/currency-converter-alc" class="project-name" rel="noopener" title="Link to Currency Converter app">Currency Converter</a>
-          <span class="project-desc">
-            Built this with Vanilla JS and made use of a <a href="https://free.currencyconverterapi.com/" rel="noopener" title="Link to currency converter api">Currency Converter API</a>.
-            I experimented with various technologies like Polyfills, Service Workers and Caching.
-          </span>
+        <div class="work">
+          <a href="http://scratchly.surge.sh" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-3.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                Scratchly
+              </div>
+              <div class="work-description">
+                A note-taking app I built using React.js and web storage APIs
+                when I needed to get a better understanding of offline web apps.
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-          <a target="_blank" href="https://theozmic.github.io/ForThePeople/" class="project-name" rel="noopener" title="Link to ForThePeople game">ForThePeople</a>
-          <span class="project-desc">
-            A patriotic game to encourage other people to be more patriotic.
-            I built this from start to finish in a short programming sprint one weekend, using jQuery.
-          </span>
+        <div class="work">
+          <a href="https://theozmic.github.io/currency-converter-alc/" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-4.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                Currency Converter
+              </div>
+              <div class="work-description">
+                A currency converter app I built when I was learning about service workers
+                and client-side caching.
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-          <a target="_blank" href="https://dlvr.ng/" class="project-name" rel="noopener" title="Link to this website">DLVR</a>
-          <span class="project-desc">
-            A web application that let's you easily find a delivery team to make your deliveries across Lagos.
-            I was a part of the front-end team and we used Vue.js.
-          </span>
+        <div class="work">
+          <a href="https://theozmic.github.io/fancy-login-page/index.html" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-5.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                Fancy Login Page
+              </div>
+              <div class="work-description">
+                A login page I built while learning how to build complex UI
+                using vanilla HTML and CSS.
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-          <a target="_blank" href="http://scratchly.surge.sh/" class="project-name" rel="noopener" title="Link to this website">Scratchly</a>
-          <span class="project-desc">
-            An offline-first web-based note-taking app that was built using ReactJS within a few hours of "work".
-          </span>
+        <div class="work">
+          <a href="https://theozmic.github.io/fancy-tourism-page/index.html" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-6.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                Fancy Tourism Page
+              </div>
+              <div class="work-description">
+                Another vanilla HTML and CSS experiment to help
+                solidify my skills in building complex user interfaces.
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-          <a target="_blank" href="https://theozmic.github.io/cssjs_clock/" class="project-name" rel="noopener" title="Link to CSS and JS clock app">CSS &amp; JS Clock</a>
-          <span class="project-desc">
-            Clock built with vanilla CSS and JS. This one's a steal from Wes Bos' course.
-          </span>
+        <div class="work">
+          <a href="https://theozmic.github.io/fancy-product-page/index.html" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-7.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                Fancy Product Page
+              </div>
+              <div class="work-description">
+                Yet another vanilla HTML and CSS experiment to help
+                solidify my front-end skills.
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-          <a target="_blank" href="https://theozmic.github.io/js_drumkit/" class="project-name" rel="noopener" title="Link to CSS and JS drumkit app">CSS &amp; JS DrumKit</a>
-          <span class="project-desc">
-            A drum kit built with vanilla CSS and JS. Also a steal from Wes Bos' course.
-          </span>
+        <div class="work">
+          <a href="http://ultra-habit.surge.sh" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-8.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                Ultra Habit Tracker
+              </div>
+              <div class="work-description">
+                An React.js app I built to track my daily habits and display them in
+                a Github-like activity graph.
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="project">
-          <a target="_blank" href="https://theozmic.github.io" class="project-name" rel="noopener" title="Link to this website">My Portfolio Website</a>
-          <span class="project-desc">
-            I built this website using HTML and CSS to help showcase my stuff.
-            It's very accessible and really fast.
-          </span>
+        <div class="work">
+          <a href="https://github.com/THEozmic/seevotes" class="work-link">
+            <div class="work-bg" style="background-image: url('assets/images/portfolio-9.png')"></div>
+            <div class="work-details">
+              <div class="work-title">
+                See Votes
+              </div>
+              <div class="work-description">
+                A browser extension I built to let me see the results
+                of on-going twitter polls without voting.
+              </div>
+            </div>
+          </a>
         </div>
       </div>
-      <span class="heading">Contact Me</span>
-      <ul>
-        <li><a href="https://twitter.com/THEozmic" rel="noopener" title="Link to my twitter account">Twitter</a></li>
-        <li><a href="https://github.com/THEozmic" rel="noopener" title="Link to my github account">GitHub</a></li>
-        <li><a href="https://medium.com/@THEozmic" rel="noopener" title="Link to my medium profile">Medium</a></li>
-        <li><a href="resume.pdf" download="Michael Ozoemena's Résumé" rel="noopener" title="Download my resume in PDF format">Download Résumé</a></li>
-        <li><a href="mailto:theozmic@gmail.com" rel="noopener" title="Send me an email">theozmic@gmail.com</a></li>
+    </div>
+
+    <div class="container" id="footer">
+      <ul class="links">
+        <li class="link-item">
+          <a href="https://www.linkedin.com/in/theozmic">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+              <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="https://github.com/theozmic">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+              <path d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="https://medium.com/@theozmic">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+              <g id="surface1">
+                <path d="M 18 41.578125 C 18 42.46875 17.523438 43 16.847656 43 C 16.609375 43 16.34375 42.933594 16.0625 42.792969 L 5.164063 37.273438 C 4.523438 36.949219 4 36.089844 4 35.367188 L 4 8.3125 C 4 7.597656 4.378906 7.175781 4.921875 7.175781 C 5.113281 7.175781 5.328125 7.226563 5.550781 7.339844 L 5.933594 7.535156 C 5.933594 7.535156 5.9375 7.535156 5.9375 7.535156 L 17.949219 13.617188 C 17.96875 13.628906 17.984375 13.648438 18 13.664063 Z M 30.585938 8.882813 L 31.320313 7.675781 C 31.582031 7.246094 32.0625 7 32.550781 7 C 32.664063 7 32.78125 7.015625 32.894531 7.046875 C 32.980469 7.066406 33.070313 7.097656 33.164063 7.144531 L 45.832031 13.558594 C 45.835938 13.558594 45.835938 13.5625 45.835938 13.5625 L 45.847656 13.566406 C 45.855469 13.570313 45.855469 13.582031 45.863281 13.585938 C 45.925781 13.636719 45.953125 13.722656 45.910156 13.792969 L 33.292969 34.558594 L 32.003906 36.675781 L 23.644531 20.304688 Z M 20 30.605469 L 20 17.5625 L 28.980469 35.15625 L 20.902344 31.066406 Z M 46 41.578125 C 46 42.414063 45.503906 42.890625 44.773438 42.890625 C 44.445313 42.890625 44.070313 42.796875 43.675781 42.597656 L 41.867188 41.679688 L 33.789063 37.589844 L 46 17.496094 Z "></path>
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="https://twitter.com/theozmic">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+              <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path>
+            </svg>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="mailto:theozmic@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24">
+              <path d="M 4 4 C 2.976 4 2.1404375 4.772625 2.0234375 5.765625 L 12 12 L 21.976562 5.765625 C 21.859563 4.772625 21.024 4 20 4 L 4 4 z M 2 7.7519531 L 2 18 C 2 19.105 2.895 20 4 20 L 12.171875 20 L 22 10.171875 L 22 7.7519531 L 12 14 L 2 7.7519531 z M 22.207031 13 C 22.079156 13 21.951016 13.048984 21.853516 13.146484 L 20.853516 14.146484 L 22.853516 16.146484 L 23.853516 15.146484 C 24.048516 14.951484 24.048516 14.634453 23.853516 14.439453 L 22.560547 13.146484 C 22.462547 13.048984 22.334906 13 22.207031 13 z M 20.146484 14.853516 L 15 20 L 15 22 L 17 22 L 22.146484 16.853516 L 20.146484 14.853516 z"></path>
+            </svg>
+          </a>
+        </li>
       </ul>
     </div>
   </div>
-  <!-- <div class="page">
-    <div class="content">
-    </div>
-  </div> -->
 </body>
+
 </html>
