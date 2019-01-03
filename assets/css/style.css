@@ -10,6 +10,22 @@ html {
   font-family: 'Muli', sans-serif;
 }
 
+.offline-notification {
+  display: inline-block;
+  background-color: #E91E63;
+  border-radius: 3px;
+  color: #ffffff;
+  position: fixed;
+  right: 20px;
+  z-index: 99999;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
 .about {
   width: 100%;
   z-index: 2;

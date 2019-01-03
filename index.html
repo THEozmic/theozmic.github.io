@@ -12,6 +12,9 @@
 
 <body>
   <div class="page">
+    <div class="offline-notification hidden">
+      You appear to be offline.
+    </div>
     <div class="container container__flex">
       <div class="about">
         <p class="about-heading">
@@ -236,6 +239,55 @@
       </ul>
     </div>
   </div>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js').then(function (reg) {
+        if (!navigator.serviceWorker.controller) {
+          return;
+        }
+        if (reg.waiting) {
+          updateReady(reg.waiting);
+          return;
+        }
+        if (reg.installing) {
+          trackInstalling(reg.installing);
+          return;
+        }
+        reg.addEventListener('updatefound', function () {
+          trackInstalling(reg.installing);
+        });
+      });
+      let refreshing;
+      navigator.serviceWorker.addEventListener('controllerchange', function () {
+        if (refreshing) return;
+        window.location.reload();
+        refreshing = true;
+      });
+    }
+    const updateReady = (worker) => {
+      const shouldUpdate = confirm('New Version Available! Update?');
+      if (shouldUpdate) worker.postMessage({ action: 'skipWaiting' });
+    }
+    const trackInstalling = (worker) => {
+      worker.addEventListener('statechange', function () {
+        if (worker.state == 'installed') {
+          updateReady(worker);
+        }
+      });
+    }
+    const element = document.getElementsByClassName('offline-notification')[0];
+    window.addEventListener("offline", function (e) {
+      element.classList.remove('hidden');
+    }, false);
+
+    window.addEventListener("online", function (e) {
+      element.classList.add('hidden');
+    }, false);
+
+    if (!window.navigator.onLine) {
+      element.classList.add('hidden');
+    }
+  </script>
 </body>
 
 </html>
