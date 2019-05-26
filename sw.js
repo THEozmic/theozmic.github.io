@@ -1,4 +1,4 @@
-importScripts('cache-polyfill.js');
+//importScripts('cache-polyfill.js');
 const staticCacheName = 'theozmic-cache-v2';
 
 self.addEventListener('install', (event) => {
