@@ -242,6 +242,8 @@
         reg.addEventListener('updatefound', function () {
           trackInstalling(reg.installing);
         });
+      }).catch(function (err) {
+        console.log(err)
       });
       let refreshing;
       navigator.serviceWorker.addEventListener('controllerchange', function () {
