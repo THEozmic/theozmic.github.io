@@ -163,13 +163,9 @@ html {
 }
 
 @media (max-width: 400px) {
-  .container-bg-wrapper svg {
-    height: 41em;
-  }
   .about-content {
     font-size: 1.8rem;
   }
-
 }
 
 @media only screen and (min-width:768px) {
